@@ -55,15 +55,31 @@ ul {
 
 li {
     background: #fff;
-    padding-left: 2rem;
     line-height: 4rem;
     color: #666;
+}
+
+span {
+    background: #e74c3c;
+    height: 4rem;
+    margin-right: 2rem;
+    text-align: center;
+    color: #fff;
+    width: 0rem;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
 }
 
 input:focus {
     background: #fff;
     border: 3px solid #48A9A6;
     outline: none;
+}
+
+li:hover span {
+    width: 4rem;
+    opacity: 1;
 }
 
 li:nth-child(2n) {
