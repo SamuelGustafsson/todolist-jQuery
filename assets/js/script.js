@@ -16,7 +16,7 @@ $(document).ready(function () {
    // Add task
    $('input').keypress(function (event) {
       if (event.which === 13) {
-         var todoHtmlString = "<li><span>X</span> " + $('input').val() + "</li>"
+         var todoHtmlString = "<li><span><i class='fa fa-trash' aria-hidden='true'></i></span> " + $('input').val() + "</li>"
          $('ul').append(todoHtmlString);
          $('input').val("");
       }
