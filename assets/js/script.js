@@ -22,6 +22,11 @@ $(document).ready(function () {
       }
    });
 
+   // Toggle add new task
+   $('.fa-plus').click(function(){
+      $('input[type="text"]').fadeToggle();
+   })
+
 });
 
 
