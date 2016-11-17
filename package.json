@@ -1,0 +1,22 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "Todo list build with jQuery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "//github.com/SamuelGustafsson/todolist-jQuery"
+  },
+  "keywords": [
+    "jQuery",
+    "todolist"
+  ],
+  "author": "Samuel Gustafsson",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

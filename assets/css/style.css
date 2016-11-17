@@ -1,0 +1,89 @@
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #48A9A6;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #48A9A6;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #48A9A6;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #48A9A6;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+background: #B24592; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #B24592 , #F15F79); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #B24592 , #F15F79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+font-family: 'Roboto', sans-serif;
+
+font-size: 14px;
+font-size: 1.4rem;
+}
+
+h1{
+   background: #48A9A6;
+   padding: 1rem 2rem;
+   margin: 0;
+   text-transform: uppercase;
+   font-weight: normal;
+   font-size: 2.4rem;
+   color: white;
+}
+
+input {
+   width: 100%;
+   box-sizing: border-box;
+   border: rgba(0, 0, 0, 0.4);
+   line-height: 4rem;
+   padding: 1.3rem 1.3rem 1.3rem 2rem;
+   background: #f7f7f7;
+   color: black;
+   font-size: 1.8rem;
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+li {
+    background: #fff;
+    padding-left: 2rem;
+    line-height: 4rem;
+    color: #666;
+}
+
+input:focus {
+    background: #fff;
+    border: 3px solid #48A9A6;
+    outline: none;
+}
+
+li:nth-child(2n) {
+    background: #f7f7f7;
+}
+
+h1 i {
+    float: right;
+    font-size: 2.5rem;
+}
+
+#container {
+ background : #f7f7f7;
+ margin: 100px auto;
+ width: 36rem;
+ box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.task-done {
+   text-decoration: line-through;
+   color: #B24592;
+}
+
